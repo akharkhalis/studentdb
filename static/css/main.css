@@ -1,0 +1,16 @@
+#alert{
+	margin: 10px 0px 0px 0px;
+	}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	}
+	
+#group-selector{
+	margin-top: 30px;
+	}
+	
+#footer {
+	border-top: 1px solid #ddd;
+		padding-top: 10px;	
+	}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Сервіс Обліку Студентів</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css" type="text/css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-10" id="header">
+				<h1>Сервіс Обліку Студентів</h1>
+			</div>
+			<div class="col-xs-2" id="group-selector">
+					<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					Групи:
+						<span class="caret"></span>
+					</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							<li ><a role="menuitem" href="#">XMX - 11</a></li>
+							<li ><a role="menuitem" href="#">XMX - 12</a></li>
+							<li ><a role="menuitem" href="#">XMX - 13</a></li>
+							<li class="divider"></li>
+							<li ><a role="menuitem" href="#">Всі групи</a></li>
+						</ul>
+					</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="header">
+					<ul class="nav nav-tabs">
+						<li ><a href="#">Студенти</a></li>
+						<li class="active"><a href="#">Групи</a></li>
+						<li ><a href="#">Відвідування</a></li>
+						<li ><a href="#">Успішність</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="alert alert-success" role="alert" id="alert">Студент успішно доданий</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h2>База Груп</h2>
+				</div>		
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<button class="btn btn-primary" type="button">Додати групу</button>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead>
+						<tr>
+							<th># &uarr;</th>
+							<th>Група</th>
+							<th>Староста</th>
+							<th>Дія</th>
+						</tr>
+						<thead>
+						<tbody>
+						<tr>
+							<td>1</td>
+							<td><a href="#">ХМХ - 11</a></td>
+							<td><a href="#">Марк Хархаліс</a></td>
+							<td>
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Дія<span class="caret"></span></button>
+										<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Успішність</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+										</ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="#">ХМХ - 12</a></td>
+							<td><a href="#">Юлія Хархаліс</a></td>
+							<td>
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Дія<span class="caret"></span></button>
+										<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Успішність</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+										</ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="#">ХМХ - 13</a></td>
+							<td><a href="#">Антон Хархаліс</a></td>
+							<td>
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Дія<span class="caret"></span></button>
+										<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Успішність</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+										</ul>
+								</div>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>					
+		</div>
+		
+		<div class="row" id="footer">
+			<div class="col-xs-12">
+			<p>&copy;2015 Cервіс Обліку Студентів</p>
+			</div>
+		</div>	
+	</div>
+		<!--JavaScripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</body>
+</html>

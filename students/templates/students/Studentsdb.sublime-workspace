@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vi",
+				"Visiting"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "students_list.html",
+			"settings":
+			{
+				"buffer_size": 5882,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/settings.py",
+			"settings":
+			{
+				"buffer_size": 2413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/urls.py",
+			"settings":
+			{
+				"buffer_size": 1357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/groups.py",
+			"settings":
+			{
+				"buffer_size": 758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/models.py",
+			"settings":
+			{
+				"buffer_size": 1798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/journal.py",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/students.py",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"selected_items":
+		[
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/neon/Dropbox/avalanche.ua/index.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/views/groups.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/views/students.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/views/journal.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/urls.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/models.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/admin.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/settings.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/base.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/journal.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/groups_list.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/students_list.html",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/studentsdb/urls.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/context_processors.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/views/visiting.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/#visiting.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/visiting.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/views.py",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/studentsdb/context_processors.py",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/students/templates/students/base.html",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/students/templates/students/groups_list.html",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/students/views/groups.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/group_listing.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students/groups.html",
+		"/media/neon/ACER/Dropbox/!Pyton/Django_Recommended_10/Code/chapter6_tmpl_views_urls/students/views/students.py",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/static/base.html",
+		"/home/neon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/neon/ACER/Dropbox/Chemistry Results/#PhD_Thesis/Latex/samplefile.tex",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/templates/students_list.html",
+		"/data/work/virtualenvs/studentsdb/src/studentdb/students/students_list.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"template"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "students_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4584,
+								4584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1185.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/studentdb/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/groups.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1274,
+								1274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/journal.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/data/work/virtualenvs/studentsdb/src/studentdb/students/views/students.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Studentsdb.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
