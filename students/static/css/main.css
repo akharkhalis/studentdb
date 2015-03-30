@@ -1,4 +1,4 @@
-#alert{
+#alert, .alert-success, .alert-warning{
 	margin: 10px 0px 0px 0px;
 	}
 
@@ -14,3 +14,11 @@ h1, h2, h3, h4, h5, h6{
 	border-top: 1px solid #ddd;
 		padding-top: 10px;	
 	}
+.help-block{
+	color:red;
+	}
+textarea,
+select,
+input {
+max-width: 300px;
+}

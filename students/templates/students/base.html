@@ -34,13 +34,20 @@
                         <li role="presentation" {% if '/journal' in request.path %}class="active"{% endif %}><a href="{% url "journal" %}">Відвідування</a></li>
                         <li role="presentation" {% if '/groups' in request.path %}class="active"{% endif %}><a href="{% url "groups" %}">Групи</a></li>
                         <li role="presentation" {% if '/notes' in request.path %}class="active"{% endif %}><a href="{% url "groups" %}">Успішність</a></li>
+                        <li role="presentation" {% if '/contact-admin' in request.path %}class="active"{% endif %}><a href="{% url "contact_admin" %}">Контакт</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="alert alert-success" role="alert" id="alert">Студент успішно доданий</div>
+                    {% block status_message %}
+                        {% if request.GET.status_message %}
+                        <div class="alert alert-success" role="alert" id="alert">{{ request.GET.status_message}}</div>
+                        {% elif request.GET.status_message_cancel %}
+                        <div class="alert alert-warning" role="alert" id="alert">{{ request.GET.status_message_cancel }}</div>
+                        {% endif %}
+                    {% endblock %}
                 </div>
             </div>
             
@@ -52,8 +59,11 @@
         </div>
         
         <div class="row" id="footer">
-            <div class="col-xs-12">
+            <div class="col-xs-10">
             &copy;2015 Cервіс Обліку Студентів
+            </div>
+            <div class="col-xs-2">
+                <a href="admin/">Admin LogIn</a>
             </div>
         </div>  
     </div>

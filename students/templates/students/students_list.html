@@ -76,6 +76,7 @@
                         {%endfor%}
                         </tbody>
                     </table>
+                     <!--Paginator-->
                         {% if students.has_other_pages %}
                             {% with order_by=request.GET.order_by reverse=request.GET.reverse %}
                             <nav>
