@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'students',
+    'crispy_forms',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -90,3 +91,15 @@ TEMPLATE_CONTEXT_PROCESSORS = \
     "studentdb.context_processors.students_proc",
     )
 
+# email settings
+# please, set here you smtp server details and your admin email
+ADMIN_EMAIL = 'anton.harhalis@gmail.com'
+EMAIL_HOST = 'smtp.mandrillapp.com'
+EMAIL_PORT = '587'
+EMAIL_HOST_USER = 'anton.harhalis@gmail.com'
+EMAIL_HOST_PASSWORD = 'XQMt5P6hVHRYk_52kRZJUQ'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+# crispy forms config
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
